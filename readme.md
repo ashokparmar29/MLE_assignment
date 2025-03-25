@@ -31,7 +31,7 @@ venv\Scripts\activate    # On Windows
 ### 3️⃣ Install Dependencies
 
 ```bash
-pip install fastapi uvicorn pandas numpy tensorflow joblib
+pip install streamlit fastapi uvicorn pandas numpy tensorflow joblib
 ```
 
 ### 4️⃣ Ensure You Have the Trained Model
@@ -43,6 +43,11 @@ uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 
 ---
+## Streamlit app
+Run the Streamlit App using the following command:
+```bash
+streamlit run app.py
+```
 
 ## 📡 API Usage
 
